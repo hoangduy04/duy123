@@ -64,3 +64,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+**Ghi chú**
+- Tạo database ashop, table people và thêm 1 vài dữ liệu trong table people.
+- Tạo ra models tên people.
+- Dùng routes để show data people
