@@ -4,7 +4,7 @@
 
 @section('content')
 
-@foreach($people as $person)
+@foreach($nguyenhoangduy as $person)
             <li>{{ $person->first_name }} {{ $person->last_name }} - {{ $person->email }}</li>
         @endforeach
 <section class="categories">
@@ -307,13 +307,12 @@
                             <div class="section-title">
                                 <h4>Hot Trend</h4>
                             </div>
-                            @foreach($people as $person)
                                 <div class="trend__item">
                                     <div class="trend__item__pic">
                                         <img src="img/trend/ht-1.jpg" alt>
                                     </div>
                                         <div class="trend__item__text">
-                                            <h6>{{ $person->first_name }} {{ $person->last_name }}</h6>
+                                            <h6></h6>
                                             <div class="rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -321,10 +320,9 @@
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
                                             </div>
-                                            <div class="product__price">{{ $person->email }}</div>
+                                            <div class="product__price"></div>
                                         </div>
                                     </div>
-                            @endforeach
                             <div class="trend__item">
                                 <div class="trend__item__pic">
                                     <img src="img/trend/ht-2.jpg" alt>
